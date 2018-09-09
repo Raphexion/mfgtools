@@ -115,7 +115,7 @@ void print_help(bool detail = false)
 		"uuu -s          Enter shell mode. uuu.inputlog record all input commands\n"
 		"                you can use \"uuu uuu.inputlog\" next time to run all commands\n\n"
 		"uuu -h -H       show help, -H means detail helps\n\n";
-	
+
 	printf("%s", help);
 	printf("uuu [-d -m -v] -b[run] ");
 	g_BuildScripts.ShowCmds();
